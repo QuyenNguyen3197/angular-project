@@ -1,0 +1,8 @@
+.text-desc{
+    background-color: lightblue;
+}
+.template-angular{
+    display: flex;
+    flex-direction: column;
+    
+}

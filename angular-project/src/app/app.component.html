@@ -1,0 +1,14 @@
+<div class="template-angular"></div>
+<app-header></app-header>
+
+<h1>Aptech angular</h1>
+<p *ngIf="showTestOne; else showTestTwo" class="text-desc">Show test one success</p>
+
+<ng-template #showTestTwo>
+  <p class="text-desc">Show test two success</p>
+</ng-template>
+
+<button type ="button" class="btn btn-primary" (click)="handleShowTestOne()">Show text one</button>
+<button type ="button" class="btn btn-secondary ml-3" (click)="handleShowTestTwo()">Show text two</button>
+
+<app-footer></app-footer>
